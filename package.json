@@ -1,0 +1,14 @@
+{
+  "name": "html-testing-project",
+  "version": "1.0.0",
+  "description": "HTML testing project with Playwright",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "install-browsers": "playwright install --with-deps"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  }
+}
